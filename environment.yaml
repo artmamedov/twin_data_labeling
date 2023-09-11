@@ -1,0 +1,12 @@
+name: twin_data_labeling
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - requests
+      - python-dotenv
+      - py-cord
+      - pillow
